@@ -1,0 +1,48 @@
+/* <lg */
+@media (max-width: 991px) {
+    body {
+        font-size: 0.9em;
+    }
+    .navbar-collapse {
+        background-color: black;
+    }
+    #p0 h1 {
+        font-size: 50px;
+        padding-left: 1em;
+    }
+    .desc {
+        width: 75%;
+    }
+    .gallery_box_single {
+        flex-direction: column;
+    }
+    .img {
+        margin: 1em 0;
+    }
+}
+/* End <lg */
+
+/* lg> */
+@media (min-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+    .desc {
+        width: 50%;
+    }
+    /* Footer */
+    .infos {
+        text-align: start !important;
+    }
+
+    .imgSocial {
+        text-align: end !important;
+    }
+
+    .social {
+        text-align: end !important;
+        margin-right: 37px !important;
+    }
+    /* End Footer */
+}
+/* End lg> */
